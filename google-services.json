@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1093334275753",
+    "project_id": "hexcm-opsx",
+    "storage_bucket": "hexcm-opsx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093334275753:android:1764fcc5277ed72548fbb8",
+        "android_client_info": {
+          "package_name": "com.hexcm.opsx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093334275753-gjd0e154a81h588rk63hmbrfq2n6psa8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVlB-7T8KJbdWIlQE2GwRpGB1bTMFAlck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093334275753-gjd0e154a81h588rk63hmbrfq2n6psa8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

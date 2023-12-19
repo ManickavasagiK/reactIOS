@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "opsx",
+    "slug": "opsx",
+    "version": "1.0.12",
+    "orientation": "portrait",
+    "icon": "./assets/opsx-icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/opsx-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "androidStatusBar": {
+      //"backgroundColor": "#6a00ff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hexcm.opsx",
+      "buildNumber": "1.0.12",
+      "icon": "./assets/newone.png"
+    },
+    "android": {
+      "package": "com.hexcm.opsx",
+      "versionCode": 12,
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "CAMERA_ROLL"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/opsx-adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "icon": "./assets/opsx-playstore.png"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2a1de838-5b4e-4f26-b22e-72d0a6ed57c1"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
